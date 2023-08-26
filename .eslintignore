@@ -1,0 +1,7 @@
+.vscode
+.husky
+public
+build
+dist
+out
+.eslintrc.cjs
