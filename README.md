@@ -1,41 +1,57 @@
-# React + TypeScript + Vite
+# TodoList App in React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Дараах react-ын ухагдахуунууд болон сангуудыг хэрэглэсэн байгаа
 
-Currently, two official plugins are available:
+1. Component
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. State, useState hook
 
-## Expanding the ESLint configuration
+3. Props, props desctructuring
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+4. JSX, TSX file extensions
 
-- Configure the top-level `parserOptions` property like this:
+5. Lifecycle, useEffect hook
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+6. CSS styling imports
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+7. Event handling - form submit, element click
+
+8. Hooks - useCallback, useEffect
+
+9. List rendering
+
+10. Conditional - if else
+
+11. Custom hook - useSettings, useTheme, useColor, useTodoList
+
+12. Fragments, fragments shorthand syntax
+
+13. StrictMode
+
+14. Context - useContext, SettingsContext, TodoListContext, ThemeContext
+
+15. State management
+
+16. Zustand state management library
+
+17. Redux toolkit state management library
 
 ## React Todo List App-ыг хэд хэдэн янзаар бичиж үзэх болно
 
-- [x] **Ганц компонент дээр бүх кодоо багтааж бичих**
+- [x] **1. [Бичигдсэн]** Ганц компонент дээр бүх кодоо багтааж бичих
+  
+  [React.js Todo List App | Бичиглэл 1 | Нэг компонент дээр бүхлээр нь бичих - YouTube](https://youtu.be/tYS1EL2ak9o)
 
-- [x] **Үндсэн логик хэсгээ user interface(UI) хэсгээсээ салгаад тусад нь custom hook-ээр орлуулж бичих**
+- [x] **2. [Бичигдсэн]** Үндсэн логик хэсгээ user interface(UI) хэсгээсээ салгаад тусад нь custom hook-ээр орлуулж бичих
+  
+  [React.js Todo List App | Бичиглэл 1, 2 | Custom hook ашиглаж бичих - YouTube](https://youtu.be/9dptExgPT-E)
 
-- [x] **User interface-ээ салгаж тус тусад нь компонент болгоод custom hook дээр байгаа логик хэсгээ props-оор дамжуулж бичих**
+- [x] **3. [Бичигдсэн]** User interface-ээ салгаж тус тусад нь компонент болгоод custom hook дээр байгаа логик хэсгээ props-оор дамжуулж бичих
+  
+  [React.js Todo List App | Бичиглэл 3 | Тус тусад нь компонент болгож салгаж бичих - YouTube](https://youtu.be/u1CwyT6twvQ)
 
-- [ ] **React context-ыг custom hook-тэй холбож бичих**
+- [ ] **4. [Удахгүй бичигдэнэ]** React context-ыг custom hook-тэй холбож бичих
 
-- [ ] **Zustand state management сан ашиглаж бичих**
+- [ ] **5. [Удахгүй бичигдэнэ]** Zustand state management сан ашиглаж бичих
 
-- [ ] **Redux Toolkit state management сан ашиглаж бичих**
+- [ ] **6. [Удахгүй бичигдэнэ]** Redux Toolkit state management сан ашиглаж бичих
