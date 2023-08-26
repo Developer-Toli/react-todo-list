@@ -39,15 +39,15 @@
 ## React Todo List App-ыг хэд хэдэн янзаар бичиж үзэх болно
 
 - [x] **1. [Бичигдсэн]** Ганц компонент дээр бүх кодоо багтааж бичих
-
+  
   [React.js Todo List App | Бичиглэл 1 | Нэг компонент дээр бүхлээр нь бичих - YouTube](https://youtu.be/tYS1EL2ak9o)
 
 - [x] **2. [Бичигдсэн]** Үндсэн логик хэсгээ user interface(UI) хэсгээсээ салгаад тусад нь custom hook-ээр орлуулж бичих
-
+  
   [React.js Todo List App | Бичиглэл 1, 2 | Custom hook ашиглаж бичих - YouTube](https://youtu.be/9dptExgPT-E)
 
 - [x] **3. [Бичигдсэн]** User interface-ээ салгаж тус тусад нь компонент болгоод custom hook дээр байгаа логик хэсгээ props-оор дамжуулж бичих
-
+  
   [React.js Todo List App | Бичиглэл 3 | Тус тусад нь компонент болгож салгаж бичих - YouTube](https://youtu.be/u1CwyT6twvQ)
 
 - [ ] **4. [Удахгүй бичигдэнэ]** React context-ыг custom hook-тэй холбож бичих
