@@ -1,22 +1,24 @@
 import { KeyOfDownloadTypes, Todo } from '../types';
 
-const fileTypes = {
+type FileTypes = Record<KeyOfDownloadTypes, globalThis.FilePickerAcceptType[]>;
+
+const fileTypes: FileTypes = {
   json: [
     {
       description: 'JSON file',
-      accept: { 'application/json': ['.json'] }
+      accept: { 'application/json': '.json' }
     }
   ],
   csv: [
     {
       description: 'CSV file',
-      accept: { 'text/csv': ['.csv'] }
+      accept: { 'text/csv': '.csv' }
     }
   ],
   txt: [
     {
       description: 'Text file',
-      accept: { 'text/plain': ['.txt'] }
+      accept: { 'text/plain': '.txt' }
     }
   ]
 };
